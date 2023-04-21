@@ -1,14 +1,13 @@
 # Kono-et-al.-2023
-【Image analysis pipeline for CellProfiler ver. 3.1.9】These contains measuring mean fluorescence intensity in the nucleoplasm and the nuclear lamina.
+【Image analysis pipeline for CellProfiler ver. 3.1.9】These contain measuring for mean fluorescence intensity in the nucleoplasm and the nuclear lamina.
 
 NP_NL_intensity_fixed.cppipe recognizes nuclei from DNA images. 3 pixels from the outside of the nucleus are regarded as the nuclear lamina. More than 10 pixels inside from the rim of the nucleus are regarded as the nucleoplasm. 
-When nuclei cannot be detected properly using Hoechst images, use NP_NL_intensity_fixed_EX.cppipe which is switching two classs to three class.
+When nuclei cannot be detected properly using Hoechst images, use NP_NL_intensity_fixed_EX.cppipe which is switching two classes to three classes thresholding.
 
 NP_NL_intensity_live.cppipe recognizes nuclei from NLS-sfCherry images. 3 pixels from the outside of the nucleus are regarded as the nuclear lamina. More than 10 pixels inside from the rim of the nucleus are regarded as the nucleoplasm. 
-When nuclei cannot be detected properly using NLS images, use NP_NL_intensity_live_EX.cppipe which is switching two classs to three class.
+When nuclei cannot be detected properly using NLS images, use NP_NL_intensity_live_EX.cppipe which is switching two classes to three classes thresholding.
 
-
-【Statistic codes for R ver. 4.2.2】 These contains Games-Howell post-hoc multiple comparison test. Used in R Commander ver. 2.8-0 with EZR plugin ver. 1.61.
+【Statistic codes for R ver. 4.2.2】 These contain Games-Howell post-hoc multiple comparison test. Used in R Commander ver. 2.8-0 with EZR plugin ver. 1.61.
 
 Aoki_all.R is forked from http://aoki2.si.gunma-u.ac.jp/R/src/all.R (last updated at Feb 01, 2019). Code is programmed by Shigenobu AOKI (Professor Emeritus, Gunma University). Encoding has been changed from the original "EUC-JP" to "UTF-8" for R 4.2.0 and later versions.
 
