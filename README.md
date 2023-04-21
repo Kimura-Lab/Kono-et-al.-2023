@@ -1,9 +1,9 @@
 # Kono-et-al.-2023
 【Image analysis pipeline for CellProfiler ver. 3.1.9】These contains measuring mean fluorescence intensity in the nucleoplasm and the nuclear lamina.
 
-NP_NL_intensity_fixed pipeline recognizes nuclei from DNA images. 3 pixels from the outside of the nucleus are regarded as the nuclear lamina. More than 10 pixels inside from the rim of the nucleus are regarded as the nucleoplasm. 
+NP_NL_intensity_fixed.cppipe recognizes nuclei from DNA images. 3 pixels from the outside of the nucleus are regarded as the nuclear lamina. More than 10 pixels inside from the rim of the nucleus are regarded as the nucleoplasm. 
 
-NP_NL_intensity_live pipeline recognizes nuclei from NLS-sfCherry images. 3 pixels from the outside of the nucleus are regarded as the nuclear lamina. More than 10 pixels inside from the rim of the nucleus are regarded as the nucleoplasm. 
+NP_NL_intensity_live.cppipe recognizes nuclei from NLS-sfCherry images. 3 pixels from the outside of the nucleus are regarded as the nuclear lamina. More than 10 pixels inside from the rim of the nucleus are regarded as the nucleoplasm. 
 When nuclei cannot be detected properly using NLS images, switching two classs to three class 0.85.
 
 
