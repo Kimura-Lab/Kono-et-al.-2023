@@ -1,5 +1,5 @@
 # Kono-et-al.-2023
-【Image analysis pipeline for CellProfiler ver. 3.1.9】These contain measuring for mean fluorescence intensity in the nucleoplasm and the nuclear lamina.
+【Image analysis pipeline for CellProfiler ver. 3.1.9】These contain several modifications to Kono-et-al.-2022 by Arata Komatsubara, which measure the mean fluorescence intensity in the nucleoplasm and the nuclear lamina.
 
 NP_NL_intensity_fixed.cppipe recognizes nuclei from DNA images. 3 pixels from the outside of the nucleus are regarded as the nuclear lamina. More than 10 pixels inside from the rim of the nucleus are regarded as the nucleoplasm. 
 When nuclei cannot be detected properly using Hoechst images, use NP_NL_intensity_fixed_EX.cppipe which switches from 'two classes' to 'three classes' thresholding distinguishing brighter foci and nuclei from cytoplasm and background.
