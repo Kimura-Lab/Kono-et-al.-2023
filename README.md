@@ -18,3 +18,6 @@ Hatano_socialStatisticsBasic.R is forked from http://kyoto-edu.sakura.ne.jp/webl
 However, the rosetta package does not show the digit after p=0.05 even if p=0.055, so it is not possible to determine whether p<0.05 or p>0.05. PMCMRplus shows p=0.055 as it displays up to three decimal places, but p=0.0499 is shown as p=0.050, so it is unclear whether p<0.05 or not. Rosetta shows asterisks to indicate significant differences, but up to two decimal places (e.g. p=0.05*, even if p=0.0499).
 
 On the other hand, the Aoki and Hatano's codes can be shown to eight decimal places (e.g. p=0.04994141), which allow decisions of p<0.05 and indicate accurate p-values.
+
+【Modified EZR ver. 1.61 for Windows】 This contains several modifications by Yohei Kono to the EZR ver. 1.61 programmed by Yoshinobu Kanda, which is a customized plugin of the R Commander ver.2.8-0 developed by John Fox.
+These patches enable user-friendly operation of the Games-Howell test and other useful statistic analyses.
