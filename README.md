@@ -27,7 +27,7 @@ These patches enable user-friendly operation of the Games-Howell test of Aoki_al
 
 ℹ Games-Howell test on rstatix package
 
-If there are so many results like below,
+If there are 10 more results like below,
 "… with 18 more rows"
 "Use `print(n = ...)` to see more rows"
-, then write `print (res, n = 18)` in R script window and run it.
+, then write `print (res, n = 8)` in R script window and run it.
