@@ -19,5 +19,11 @@ However, the rosetta package does not show the digit after p=0.05 even if p=0.05
 
 On the other hand, the Aoki and Hatano's codes can be shown to eight decimal places (e.g. p=0.04994141), which allow decisions of p<0.05 and indicate accurate p-values.
 
-【Modified EZR ver. 1.61 for Windows】 This contains several modifications by Yohei Kono to the EZR ver. 1.61 programmed by Yoshinobu Kanda, which is a customized plugin of the R Commander ver.2.8-0 developed by John Fox.
-These patches enable user-friendly operation of the Games-Howell test and other useful statistic analyses.
+【Modified EZR ver. 1.61 for Windows】 This contains several modifications by Yohei Kono to the EZR ver. 1.61 programmed by Yoshinobu Kanda, which is a customized plugin of the R Commander ver. 2.8-0 developed by John Fox.
+These patches enable user-friendly operation of the Games-Howell test of Aoki_all.R and rstatix package, and other useful statistic analyses.
+
+##Games-Howell test on rstatix package##
+If there are so many results like below,
+# … with 18 more rows
+# ℹ Use `print(n = ...)` to see more rows
+, then write 'print (res, n = ...)' in R script window and run it.
