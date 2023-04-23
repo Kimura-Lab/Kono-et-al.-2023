@@ -1,4 +1,6 @@
 # Kono-et-al.-2023
+ℹ We do not guarantee the integrity of these programs in their existing versions. We also assume no responsibility for any disadvantages that may result from the reader's use of these programs.
+
 # Image analysis pipelines for CellProfiler ver. 3.1.9
 These contain several modifications to Kono-et-al.-2022 by Arata Komatsubara, which measure the mean fluorescence intensity in the nucleoplasm and the nuclear lamina.
 
@@ -11,9 +13,9 @@ When nuclei cannot be detected properly using NLS images, use NP_NL_intensity_li
 # Statistic codes for R ver. 4.2.2
 These contain Games-Howell post-hoc multiple comparison test. Used in R Commander ver. 2.8-0 with EZR plugin ver. 1.61.
 
-Aoki_all.R is forked from http://aoki2.si.gunma-u.ac.jp/R/src/all.R (last updated at Feb 01, 2019). Code is programmed by Shigenobu AOKI (Professor Emeritus, Gunma University). Encoding has been changed from the original "EUC-JP" to "UTF-8" for R 4.2.0 and later versions.
+Aoki_all.R is forked from http://aoki2.si.gunma-u.ac.jp/R/src/all.R (last updated at Feb 01, 2019). Code is programmed by Shigenobu AOKI (Professor Emeritus, Gunma University). Encoding has been changed from the original "EUC-JP" to "UTF-8" for R 4.2.0 and later versions. This program is provided as a draft to be used and freely rewritten by users. I encourage readers to refer to his book (Aoki S. [Statistical analysis by R] R ni yoru Toukei Kaiseki (in Japanese), Ohmsha, 2009) for further information and cite his work appropriately in accordance with international academic publishing guidelines.
 
-Hatano_socialStatisticsBasic.R is forked from http://kyoto-edu.sakura.ne.jp/weblesson/statistics/socialStatisticsBasic.R (Ver.1.3; Nov 24, 2021). Code is programmed by Shinsuke HATANO (Ryukoku University).
+Hatano_socialStatisticsBasic.R is forked from http://kyoto-edu.sakura.ne.jp/weblesson/statistics/socialStatisticsBasic.R (Ver.1.3; Nov 24, 2021). Code is programmed by Shinsuke HATANO (Ryukoku University). I have obtained permission to redistribute the code on GitHub. I encourage readers to refer to his website for further information and cite his work appropriately in accordance with international academic publishing guidelines.
 
 #To perform the Games-Howell test using R software, the "rosetta", "PMCMRplus" and "rstatix" packages are now available. (The "userfriendlyscience" package was provided in older versions than R 4.0.5).
 
