@@ -13,9 +13,9 @@ When nuclei cannot be detected properly using NLS images, use NP_NL_intensity_li
 # Statistic codes for R ver. 4.2.2
 These contain Games-Howell post-hoc multiple comparison test. Used in R Commander ver. 2.8-0 with EZR plugin ver. 1.61.
 
-Aoki_all.R is forked from http://aoki2.si.gunma-u.ac.jp/R/src/all.R (last updated at Feb 01, 2019). Code is programmed by Shigenobu AOKI (Professor Emeritus, Gunma University). Encoding has been changed from the original "EUC-JP" to "UTF-8" for R 4.2.0 and later versions. This program is provided as a draft to be used and freely rewritten by users. I encourage readers to refer to his book (Aoki S. [Statistical analysis by R] R ni yoru Toukei Kaiseki (in Japanese), Ohmsha, 2009) for further information and cite his work appropriately in accordance with international academic publishing guidelines.
+Aoki_all.R is forked from http://aoki2.si.gunma-u.ac.jp/R/src/all.R (last updated at Feb 01, 2019). Code is programmed by Shigenobu AOKI (Professor Emeritus, Gunma University). Encoding has been changed from the original "EUC-JP" to "UTF-8" for R 4.2.0 and later versions. This program is provided as a draft for users to freely rewrite and use. I encourage readers to refer to his book (Aoki S. [Statistical analysis by R] R ni yoru Toukei Kaiseki (in Japanese), Ohmsha, 2009) or website (http://aoki2.si.gunma-u.ac.jp/R/, in Japanese, but easy to translate) for further information and cite his work appropriately in accordance with international academic publishing guidelines to use this.
 
-Hatano_socialStatisticsBasic.R is forked from http://kyoto-edu.sakura.ne.jp/weblesson/statistics/socialStatisticsBasic.R (Ver.1.3; Nov 24, 2021). Code is programmed by Shinsuke HATANO (Ryukoku University). I have obtained permission to redistribute the code on GitHub. I encourage readers to refer to his website for further information and cite his work appropriately in accordance with international academic publishing guidelines.
+Hatano_socialStatisticsBasic.R is forked from http://kyoto-edu.sakura.ne.jp/weblesson/statistics/socialStatisticsBasic.R (Ver.1.3; Nov 24, 2021). Code is programmed by Shinsuke HATANO (Ryukoku University). I have obtained permission to redistribute these codes on GitHub. I encourage readers to refer to his website (https://kyoto-edu.sakura.ne.jp/ryukoku/?&course=statistics&content=R01_source, in Japanese, but easy to translate) for further information. In accordance with international academic publishing guidelines, appropriate citation should be provided to use this.
 
 #To perform the Games-Howell test using R software, the "rosetta", "PMCMRplus" and "rstatix" packages are now available. (The "userfriendlyscience" package was provided in older versions than R 4.0.5).
 
@@ -25,11 +25,11 @@ Hatano_socialStatisticsBasic.R is forked from http://kyoto-edu.sakura.ne.jp/webl
 
 #rstatix shows asterisks to indicate significant differences, but up to two decimal places (e.g. p=0.05*, even if p=0.0499).
 
-#On the other hand, the Aoki and Hatano's codes can be shown to eight decimal places (e.g. p=0.04994141), which allow decisions of p<0.05 and indicate accurate p-values.
+#On the other hand, Aoki's and Hatano's codes can be calculated to eight decimal places (e.g. p=0.04994141), which allow determination of p<0.05 and indicate accurate p-values.
 
 # Modified EZR ver. 1.61 for Windows
 This contains several modifications by Yohei Kono to the EZR ver. 1.61 programmed by Yoshinobu Kanda, which is a customized plugin of the R Commander ver. 2.8-0 developed by John Fox.
-These patches enable user-friendly operation of the Games-Howell test of Aoki_all.R and rstatix package, and other useful statistic analyses.
+These patches enable user-friendly manipulation of the Games-Howell tests on Aoki_all.R and rstatix package, and other useful statistic analyses.
 
 ℹ Games-Howell test on rstatix package
 
