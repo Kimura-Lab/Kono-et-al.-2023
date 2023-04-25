@@ -1,5 +1,5 @@
 # Games-Howell and Tukey-Kramer test using Aoki_all.R
-#Change "Dataset", "group" and "response" as yours.  
+Change `Dataset`, `group` and `response` as yours.  
 Modified EZR1.61 for Windows is also available.
 
 #####Games-Howell test#####  
