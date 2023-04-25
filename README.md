@@ -27,7 +27,7 @@ I have obtained permission to redistribute these codes on GitHub. I encourage re
 
 ## Modified EZR ver. 1.61 for Windows
 This contains several modifications by Yohei Kono to the [EZR ver. 1.61](http://www.jichi.ac.jp/saitama-sct/SaitamaHP.files/statmedEN.html) programmed by Yoshinobu Kanda, which is a customized plugin of the [R Commander ver. 2.8-0](http://socialsciences.mcmaster.ca/jfox/Misc/Rcmdr/) developed by John Fox[^3][^4][^5].
-These patches enable user-friendly manipulation of Games-Howell tests on **Aoki_all.R** and ***rstatix*** package, and other useful statistic analyses.  
+These patches enable user-friendly manipulation of Games-Howell tests on **Aoki_all.R**, **Hatano_socialStatisticsBasic.R** and ***rstatix*** package, and other useful statistic analyses.  
 If you use the EZR in a scientific paper, you should cite his report[^6] as a reference.
 
 ℹ If there are 10 more results from the Games-Howell test on ***rstatix*** package like below,  
